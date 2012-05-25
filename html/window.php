@@ -25,7 +25,7 @@
 					</h2>
 					<p><?php echo un_feedback_form_text() ?></p>
 					<?php do_action('un_fedback_form_before')?>
-					<form action="<?php echo admin_url('admin-ajax.php') ?>?action=un_feedback_form_submit" method="post" id="feedback-form">
+					<form action="<?php echo admin_url('admin-ajax.php', 'http') ?>?action=un_feedback_form_submit" method="post" id="feedback-form">
 						<?php if (un_get_option(UN_FEEDBACK_FORM_SHOW_TYPE)): ?>
 							<div id="types-wrapper">
 								<?php $un_h->link_to(__('Idea', 'usernoise') . '<span class="selection"></span>', '#', array('id' => 'un-type-idea', 'class' => 'selected'))?>

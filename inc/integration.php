@@ -22,7 +22,7 @@ class UN_Integration {
 			'style' => sprintf("background-color: %s; color: %s", 
 					un_get_option(UN_FEEDBACK_BUTTON_COLOR), un_get_option(UN_FEEDBACK_BUTTON_TEXT_COLOR)),
 			'class' => implode(' ', un_button_class()),
-			'windowUrl' => admin_url('admin-ajax.php') . "?action=un_load_window",
+			'windowUrl' => admin_url('admin-ajax.php', 'http') . "?action=un_load_window",
 			'showButton' => apply_filters('un_show_button', true)
 			)));
 	}
