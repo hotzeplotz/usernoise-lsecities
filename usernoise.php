@@ -3,7 +3,7 @@
 Plugin Name: Usernoise
 Plugin URI: http://karevn.com
 Description: Usernoise is a modal contact / feedback form with smooth interface.
-Version: 2.0.3
+Version: 2.0.3-lsecities0
 Author: Nikolay Karev
 Author URI: http://karevn.com
 */
